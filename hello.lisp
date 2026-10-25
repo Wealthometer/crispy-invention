@@ -1,0 +1,4 @@
+(defun greet (name)
+  (format nil "Hello, ~a!" name))
+
+(format t "~a~%" (greet "Wealth"))
